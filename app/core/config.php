@@ -4,22 +4,22 @@ if($_SERVER['SERVER_NAME'] == "localhost")
 {
 
 	//for local server
-	define("ROOT", "http://localhost/music_website/public");
+	define("ROOT", "http://localhost/musicapp/public");
 
 	define("DBDRIVER", "mysql");
 	define("DBHOST", "localhost");
 	define("DBUSER", "root");
 	define("DBPASS", "");
-	define("DBNAME", "music_website_db");
+	define("DBNAME", "musicapp");
 
 }else{
 
 	//for online server
-	define("ROOT", "http://www.mywebsite.com");	
+	define("ROOT", "");	
 
 	define("DBDRIVER", "mysql");
 	define("DBHOST", "localhost");
 	define("DBUSER", "root");
 	define("DBPASS", "");
-	define("DBNAME", "music_website_db");
+	define("DBNAME", "musicapp");
 }
